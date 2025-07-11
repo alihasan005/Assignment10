@@ -137,4 +137,29 @@ max-width: 517px;
   border-radius: 48px;
 margin: 20px;
 }
+.footer{
+   padding: 93px 650px; 
+  display: flex;
+  gap: 100px;
+    align-items: center;
+    color: #e0d5d5;
+}
+.footer-colum{
+  width: 50%;
+  
+
+}
+.footer-title{
+color: #000000;
+}
+footer input[type="text"], footer input[type="email"], footer textarea  {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;;
+   padding: 10px 20px; 
+  margin-bottom: 24px;
+}
+
 
