@@ -120,3 +120,21 @@ max-width: 517px;
  .name{
   padding: 5px;
  }
+.focus{
+  text-align: center;
+  margin: 100px;
+
+}
+.focus-title{
+  color: #000000;
+    
+}
+.focus-discription{
+  color: #000000;
+ 
+}
+.focus-img{
+  border-radius: 48px;
+margin: 20px;
+}
+
