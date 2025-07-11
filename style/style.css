@@ -12,7 +12,7 @@ justify-content: space-between;
 padding:0px 150px 158px 150px;
 }
 .nav-logo{
-    width: 99px;
+    width: bold;
     height: 51px;
     color: #4E47FF;
 }
@@ -162,4 +162,28 @@ footer input[type="text"], footer input[type="email"], footer textarea  {
   margin-bottom: 24px;
 }
 
-
+.sub-footer{
+ text-align: center;
+ padding: 104px 455px;
+}
+.footer-top-title{
+  font-weight: bold;
+  color: #4E47FF;
+}
+.footer-top-discription{
+  color: #8987A1;
+}
+.footer-buttom{
+ 
+}
+.footer-buttom ul{
+  list-style: none;
+  color: #8987A1;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-buttom ul li{
+  margin: 20px 48px;
+ 
+}
