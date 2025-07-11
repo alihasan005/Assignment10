@@ -1,6 +1,10 @@
 
 
 /* nav style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .nav-top{
     display: flex;
 align-items: center;
@@ -27,8 +31,73 @@ padding: 60px 267.5px 150px 267.5px;
 }
 .banner1{
     background-image: url("../Assets/Hero-bg.png");
-    background-repeat: no-repeat;
 }
 .banner2{
 display: flex;
+justify-content: center;
+margin:116px 160px 116px 140px ;
+gap: 23px;
 }
+.banner-title{
+     width: bold ; 
+     color: #252432;  
+     padding: 62.5px ; 
+     
+}
+.banner-content2{
+max-width: 517px;
+    height: 203px;
+
+}
+.banner-img2{
+     max-width: 403px;
+    height: 328px;
+} 
+.img2{
+    border-radius: 48px;
+}
+
+
+      .stats-section {
+      text-align: center;
+      border-radius:18px;
+      background-color: rgb(211, 222, 231);
+     padding: 50px 80px;
+     margin: 116px 15px;
+     
+    }
+
+    .stats-section h2 {
+      font-size: 38px;
+      margin-bottom: 116px 160px;
+      color: #252432;
+      
+    }
+
+    .stats-container {
+     
+      flex-wrap: wrap;
+       justify-content: center;  
+      gap: 58px;
+       display: flex;
+    }
+
+    .stat-box {
+      background-color: #f0f4f8;
+      padding: 30px;
+      border-radius: 12px;
+      width: 200px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .stat-box h3 {
+      font-size: 2em;
+      color: #4E47FF;
+      margin: 0;
+    }
+
+    .stat-box p {
+      margin-top: 10px;
+      font-size: 1em;
+      color: #555;
+    }
